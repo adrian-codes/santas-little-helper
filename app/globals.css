@@ -4,24 +4,25 @@
 
 body {
   color: rgb(var(0, 0, 0));
-  background: linear-gradient(to bottom, transparent, rgb(22, 91, 51))
-    rgb(20, 107, 58);
+  background: linear-gradient(to bottom, transparent, theme("colors.greenDark"))
+    theme("colors.green");
 }
 
-.green-1 {
-  background: rgb(22, 91, 51);
+/* coming from tailwind.config.js theme */
+.green {
+  background-color: theme("colors.green");
 }
 
-.green-2 {
-  background: rgb(20, 107, 58);
+.greenDark {
+  background-color: theme("colors.greenDark");
 }
 
-.red-1 {
-  background: rgb(234, 70, 48);
+.red {
+  background-color: theme("colors.red");
 }
-.red-2 {
-  background: rgb(187, 37, 40);
+.redDark {
+  background-color: theme("colors.redDark");
 }
 .yellow {
-  background: rgb(248, 178, 41);
+  background-color: theme("colors.yellow");
 }
